@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     EditText et1,et2;
     Button btn;
     private DatabaseReference mDatabase;
-
+//FOR TEST
     @Override
     protected void onPause() {
         super.onPause();
