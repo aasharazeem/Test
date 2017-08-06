@@ -34,9 +34,11 @@ public class MainActivity extends AppCompatActivity {
         Send();
     }
     public void init(){
+        //initialization function
         btn = (Button) findViewById(R.id.button);
         et1=(EditText) findViewById(R.id.name);
         et2=(EditText) findViewById(R.id.email);
+
     }
     public void Send(){
             btn.setOnClickListener(new View.OnClickListener() {
